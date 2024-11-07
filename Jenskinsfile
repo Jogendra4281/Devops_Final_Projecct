@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/SairamPabbisetty/quiz-application.git'
+                git 'https://github.com/Jogendra4281/Devops_Final_Projecct.git'
             }
         }
         stage('Build') {
